@@ -1,0 +1,16 @@
+{
+  "name": "netlify-environment-variables-test",
+  "version": "1.0.0",
+  "description": "Project is testing how to hide sensitive data by lambda functions in environment variables",
+  "main": "index.js",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "author": "Andrzej Jaworski",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "netlify-lambda": "^2.0.14"
+  }
+}
